@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/favicon.png
+  medium: /images/favicon.png
+  apple_touch_icon: /images/favicon.png
+  safari_pinned_tab: /images/favicon.png
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
@@ -121,7 +121,7 @@ menu:
   tags: /tags/|| fa fa-tags
   categories: /categories/|| fa fa-th
   archives: /archives/|| fa fa-archive
-  schedule: /schedule/|| fa fa-calendar
+  #schedule: /schedule/|| fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
@@ -252,7 +252,9 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
+  awl: 4
+  wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
@@ -354,14 +356,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night 
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
-    show_result: false
+    show_result: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
